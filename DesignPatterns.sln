@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{586C5EED-0441-4CCC-AD61-6958B4533839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{586C5EED-0441-4CCC-AD61-6958B4533839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{99C035FC-7894-4A3E-912E-D9A101FAF066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{99C035FC-7894-4A3E-912E-D9A101FAF066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{2F67A17C-399D-4039-8CA1-1AF80E460E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{99C035FC-7894-4A3E-912E-D9A101FAF066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C035FC-7894-4A3E-912E-D9A101FAF066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C035FC-7894-4A3E-912E-D9A101FAF066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F67A17C-399D-4039-8CA1-1AF80E460E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F67A17C-399D-4039-8CA1-1AF80E460E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F67A17C-399D-4039-8CA1-1AF80E460E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F67A17C-399D-4039-8CA1-1AF80E460E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
